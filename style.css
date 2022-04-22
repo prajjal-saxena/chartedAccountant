@@ -1,0 +1,194 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.mt-space{
+    margin-bottom: 70px;
+}
+/* HEADER SECTION */
+
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    width: 62px;
+    height: 62px;
+}
+.logo img {
+    width: 72px;
+    height: 70px;
+}
+.nav-list .navi-li {
+    display: flex;
+    padding-top: 15px;
+}
+.nav-list .navi-li li {
+    list-style: none;
+    padding: 0 8px 0 8px;
+    margin: 0 8px 0 8px;
+}
+.nav-list .navi-li li a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-list .navi-li li a:hover{
+    color: rgb(245, 53, 66);
+}
+section.cover img {
+    width: 100%;
+    height: 400px;
+}
+.cover img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* SUB-MENU */
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: white;
+      width: 159px;
+      transform: translateY(33px);
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+  }
+  .subnav-content li {
+      padding-bottom: 5px!important;
+  }
+  
+  .subnav-content a {
+    /* float: left; */
+    color: white;
+    text-decoration: none;
+  }
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  .subnav{
+      position: relative;
+  }
+  
+/* ABOUT US */
+.space-pa-ma {
+    background: #e5e5e5;
+    padding: 30px;
+    border-radius: 10px;
+}
+.about-founder{
+    margin-top: 15px;
+}
+
+/* FOOTER SECTION */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+footer{
+    position: relative;
+    color: #fff;
+    background: #000;
+    padding: 20px 0 20px 0;
+}
+
+/* HOME FORM SECTION */
+.input_field{
+    margin-bottom: 15px;
+}
+
+/* TESTIMONIAL SECTION*/
+.testimonial{
+    text-align: center;
+    background-image: url('img/entities-cover.jpg');
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 1rem;
+   
+}
+.testimonial:before{
+
+    content: "";
+    background: rgba(0,0,0,.6);
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+#testimonial-content{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 0;
+    /* opacity: 0.9; */
+    z-index: 10;
+    position: relative;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.testimonal-list li{ max-width: 90%;
+    margin: 0 auto;}
+.testimonial h1{
+    color: #fff;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.testimonial button:before{color: #fff!important;}
+ul.testimonal-list.slick-initialized.slick-slider{
+    max-width: 1203px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;    
+}
+.testimonal-list li{
+    /* border: 2px solid black; */
+    border-radius: 14px;
+    padding: 20px 7px;
+    background: #fff;
+}
+/* WHO WE ARE SECTION */
+.we-are {
+    display: flex;
+    justify-content: space-between;
+}
+.who-we-are-img img {
+    width: 472px;
+    height: 273px;
+    
+}
+.who-we-are-img img:hover{
+    box-shadow: 0px 1px 9px 10px #e5e5e5;
+    transform: scale(1.1);
+}
+.we-are .who-we-are-img {
+    width: 44%;
+}
+.we-are .who-we-are1 {
+    width: 40%;
+}
+.who-we-are2{
+    line-height: 7px;
+}
